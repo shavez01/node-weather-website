@@ -31,7 +31,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Cat look',
+        title: 'About Me',
         name: 'Shavez'
     })
 });
