@@ -24,7 +24,7 @@ app.use(express.static(patDir));
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'weather look',
+        title: 'Weather',
         name: 'Shavez'
     })
 });
